@@ -12,6 +12,9 @@ import { SesionComponent } from './sesion/sesion.component';
 import { InicioComponent } from './content/inicio/inicio.component';
 import { CargarscriptsService } from './cargarscripts.service';
 
+import {RouterModule, Routes} from '@angular/router';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -25,7 +28,8 @@ import { CargarscriptsService } from './cargarscripts.service';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [
     CargarscriptsService
